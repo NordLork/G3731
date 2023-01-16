@@ -24,6 +24,14 @@ if (inputNum != null)
     {
       rez = rez + num;
     }
+    else
+    {
+      //Удаляем последние " ," при нечётном числе
+      rez = rez.TrimEnd(' ');
+      rez = rez.TrimEnd(',');
+      // int lastIndex = rez.LastIndexOf(',');
+      // rez = rez.Remove(lastIndex, 2);
+    }
     Console.WriteLine(rez);
   }
 }
