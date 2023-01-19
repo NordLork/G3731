@@ -17,10 +17,10 @@
 
 // Вариант 2
 Console.Write("Введите число: ");
-int num = int.Parse(Console.ReadLine() ?? "0");
+long num = int.Parse(Console.ReadLine() ?? "0");
 // Счётчик разряда числа
 int i = 0;
-int raz = num;
+long raz = num;
 while (raz > 0)
 {
   raz /= 10;
