@@ -4,16 +4,16 @@
 // что третьей цифры нет.
 
 // Вариант 1
-// Console.Write("Введите число: ");
-// char[] digits = Console.ReadLine().ToCharArray();
-// if (digits.Length > 3)
-// {
-//   Console.WriteLine("Третья цифра: " + digits[2]);
-// }
-// else
-// {
-//   Console.WriteLine("Третьей цифры нет.");
-// }
+//  Console.Write("Введите число: ");
+//  char[] digits = Console.ReadLine().ToCharArray();
+//  if (digits.Length > 2)
+//  {
+//    Console.WriteLine("Третья цифра: " + digits[2]);
+//  }
+//  else
+//  {
+//    Console.WriteLine("Третьей цифры нет.");
+//  }
 
 // Вариант 2
 Console.Write("Введите число: ");
