@@ -39,6 +39,7 @@ void Print2DArray(int[,] matr)
   Console.WriteLine();
 }
 
+// Печать одномерного массива
 void Print1DArray(int[] meanArr)
 {
   for (int i = 0; i < meanArr.Length; i++)
@@ -47,6 +48,7 @@ void Print1DArray(int[] meanArr)
   }
 }
 
+// Заполнение частотного массива
 int[] FillFreqDic(int[,] matr, int alphLen)
 {
   int[] farr = new int[alphLen];

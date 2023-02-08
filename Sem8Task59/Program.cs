@@ -40,7 +40,7 @@ void Print2DArray(int[,] matr)
   Console.WriteLine();
 }
 
-
+// Поиск положения минимального элемента в матрице
 (int x, int y) SearchMinElem(int[,] matr)
 {
   int raw = 0;
@@ -61,7 +61,7 @@ void Print2DArray(int[,] matr)
   return (raw, col);
 }
 
-
+// Удаление из матрицы указанных строки и столбца
 int[,] Update2DArray(int[,] matr, int x, int y)
 {
   int[,] resArr = new int[matr.GetLength(0) - 1, matr.GetLength(1) - 1];

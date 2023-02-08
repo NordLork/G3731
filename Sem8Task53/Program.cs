@@ -46,6 +46,7 @@ void Print2DArray(int[,] matr)
 // 4 5 6
 // 1 2 3
 
+// Поэлементный обмен строчками в матрице
 void SwapRaw2DArray(int[,] matr)
 {
   int k = 0;

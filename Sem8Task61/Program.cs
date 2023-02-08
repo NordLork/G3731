@@ -21,7 +21,7 @@ int ReadData(string line)
   return number;
 }
 
-
+// Вывод треугольника Паскаля
 //_ _ _ _ _ 1
 //_ _ _ _  1 1
 void PrintPascalTriangle(int nRow)
@@ -38,7 +38,7 @@ void PrintPascalTriangle(int nRow)
     {
       // создаём пробелы между элементами треугольника
       Console.Write(" ");
-      //формула вычисления элементов треугольника
+      // формула вычисления элементов треугольника
       Console.Write(Factor(i) / (Factor(j) * Factor(i - j)));
     }
     Console.WriteLine();

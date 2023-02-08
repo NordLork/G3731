@@ -40,6 +40,7 @@ void Print2DArray(int[,] matr)
   Console.WriteLine();
 }
 
+// Транспонирование матрицы
 void TransArray(int[,] matr)
 {
   int k = 0;
@@ -54,6 +55,7 @@ void TransArray(int[,] matr)
   }
 }
 
+// Тест на размерность (квадратность) матрицы
 bool TestArray(int[,] arr)
 {
   if (arr.GetLength(0) == arr.GetLength(1))
